@@ -10,7 +10,7 @@ Automated Disk Sanitiser is a Python-based storage optimization and cleanup syst
 * Binary-Safe Stream Handling: Opens files in binary read mode ("rb"), making it perfectly safe for analyzing diverse formats like images, PDFs, videos, and binaries.
 * Automated Redundancy Purging: Filters data groups to isolate redundancies, keeping the first discovered copy intact while deleting subsequent clones via os.remove.  
 
-##🛠 Tech Stack
+## 🛠 Tech Stack
 * Language: Python
 * Core Modules: hashlib — For creating unique MD5 checksum fingerprints.
 * os — For directory pathing, structure validation, and permanent disk deletion.  
